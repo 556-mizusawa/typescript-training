@@ -10,6 +10,6 @@ let nickname = 'Oceans556' as const;
 let profile = {
   name: 'kougoro',
   height: 165,
-};
+} as const;
 
-profile.name = 'Ocean';
+// profile.name = 'Ocean';
